@@ -1,9 +1,15 @@
-const PostListPage = () => {
+import HeaderContainer from "../containers/common/HeaderContainer";
+import PostViewerContainer from "../containers/post/PostViewerContainer";
+
+const PostPage = () => {
 
     return (
-        <div>포스트 리스트</div>
+        <>
+            <HeaderContainer />
+            <PostViewerContainer />
+        </>
     )
 
 }
 
-export default PostListPage;
+export default PostPage;
